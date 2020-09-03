@@ -17,15 +17,17 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta name="description" content="MSI@Umich ECS@SJTU">
+<meta property="og:type" content="website">
+<meta property="og:title" content="M A X">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="M A X">
+<meta property="og:description" content="MSI@Umich ECS@SJTU">
 <meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="Yangtao &quot;Max&quot; Zhang">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://yoursite.com/">
@@ -41,7 +43,7 @@
   };
 </script>
 
-  <title>Hexo</title>
+  <title>M A X</title>
   
 
 
@@ -92,9 +94,10 @@
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">Hexo</h1>
+      <h1 class="site-title">M A X</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
+      <p class="site-subtitle" itemprop="description">Computer / Data / Human</p>
   </div>
 
   <div class="site-nav-right">
@@ -113,9 +116,19 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
 
   </li>
-        <li class="menu-item menu-item-archives">
+        <li class="menu-item menu-item-about">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-projects">
+
+    <a href="/projects/" rel="section"><i class="fas fa-chalkboard-teacher fa-fw"></i>Projects</a>
+
+  </li>
+        <li class="menu-item menu-item-resume">
+
+    <a href="/resume/" rel="section"><i class="fas fa-file fa-fw"></i>Resume</a>
 
   </li>
   </ul>
@@ -132,6 +145,8 @@
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
   </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
 
 
     <main class="main">
@@ -145,21 +160,21 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/04/hello-world/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/10/Patterns-for-Coding-Questions-Two-Pointers/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="M A X">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/05/04/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+            <a href="/2020/05/10/Patterns-for-Coding-Questions-Two-Pointers/" class="post-title-link" itemprop="url">Patterns for Coding Questions - Two Pointers</a>
         </h2>
 
         <div class="post-meta">
@@ -169,10 +184,31 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2020-05-04 00:57:20" itemprop="dateCreated datePublished" datetime="2020-05-04T00:57:20-04:00">2020-05-04</time>
+              <time title="Created: 2020-05-10 21:32:48" itemprop="dateCreated datePublished" datetime="2020-05-10T21:32:48-04:00">2020-05-10</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-05-21 02:13:40" itemprop="dateModified" datetime="2020-05-21T02:13:40-04:00">2020-05-21</time>
+              </span>
 
-          
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>362</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
 
         </div>
       </header>
@@ -183,19 +219,732 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+          <h2 id="Two-Pointers"><a href="#Two-Pointers" class="headerlink" title="Two Pointers"></a>Two Pointers</h2><p>In problems where we deal with <strong>sorted</strong> arrays (or LinkedLists) and need to find <strong>a set of elements</strong> that fulfill certain constraints, the Two Pointers approach becomes quite useful. The set of elements could be a pair, a triplet or even a subarray</p>
+<p>First pointer points to the start while the second pointer points to the end. We can adjust the positions of two pointers based on different conditions</p>
+<h3 id="Pair-with-Target-Sum-easy"><a href="#Pair-with-Target-Sum-easy" class="headerlink" title="Pair with Target Sum (easy)"></a>Pair with Target Sum (easy)</h3>
+      
+    </div>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/10/Patterns-for-Coding-Questions-Sliding-Window/">
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
 
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/10/Patterns-for-Coding-Questions-Sliding-Window/" class="post-title-link" itemprop="url">Patterns for Coding Questions - Sliding Window</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-10 03:59:56" itemprop="dateCreated datePublished" datetime="2020-05-10T03:59:56-04:00">2020-05-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-05-21 02:13:37" itemprop="dateModified" datetime="2020-05-21T02:13:37-04:00">2020-05-21</time>
+              </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>2.1k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>2 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="Sliding-Window"><a href="#Sliding-Window" class="headerlink" title="Sliding Window"></a>Sliding Window</h2><p>Slide the window by changing the start and the end index of the window</p>
+<p><strong>substring, subarray</strong> is an indicator for sliding window</p>
+<p>We can use a <strong>hashmap</strong> to count the frequency of each character in the <strong>substring</strong></p>
+<p>We can use a <strong>deque</strong> to manage those intermediate values (like prefix sum, index)</p>
+<h3 id="Fixed-Window-Size"><a href="#Fixed-Window-Size" class="headerlink" title="Fixed Window Size"></a>Fixed Window Size</h3><p>Means start and end index move at same length step (usually 1)</p>
+<p>max / min window sum, average…</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># window size k, sliding step 1</span></span><br><span class="line"><span class="keyword">for</span> end <span class="keyword">in</span> range(len(arr)):</span><br><span class="line">    <span class="comment"># move end index right</span></span><br><span class="line">    res += arr[end]</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> end &gt;= k<span class="number">-1</span>:</span><br><span class="line">        <span class="comment"># move start index right</span></span><br><span class="line">        res -= arr[start]</span><br><span class="line">        start += <span class="number">1</span></span><br><span class="line"><span class="keyword">return</span> res</span><br></pre></td></tr></table></figure>
+
+<h4 id="Maximum-Sum-Subarray-of-Size-K-easy"><a href="#Maximum-Sum-Subarray-of-Size-K-easy" class="headerlink" title="Maximum Sum Subarray of Size K (easy)"></a>Maximum Sum Subarray of Size K (easy)</h4><p>Given an array of positive numbers and a positive number ‘k’, find the maximum sum of any contiguous subarray of size ‘k’.</p>
+<h3 id="Dynamic-Window-Size"><a href="#Dynamic-Window-Size" class="headerlink" title="Dynamic Window Size"></a>Dynamic Window Size</h3><p>Means start and end index move at different length step</p>
+<p>max / min window size</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># target sum s</span></span><br><span class="line"><span class="comment"># [start, end] is the sliding window range</span></span><br><span class="line"><span class="keyword">for</span> end <span class="keyword">in</span> range(len(arr)):</span><br><span class="line">    <span class="comment"># operations to move end right</span></span><br><span class="line">    res_sum += arr[end]</span><br><span class="line"></span><br><span class="line">    <span class="comment"># while loop makes the size of the window changeable</span></span><br><span class="line">    <span class="comment"># critical condition</span></span><br><span class="line">    <span class="keyword">while</span> res_sum &gt;= s:</span><br><span class="line">    <span class="comment"># operations to move start right</span></span><br><span class="line">      res = min(res, end-start+<span class="number">1</span>)</span><br><span class="line">      res_sum -= arr[start]</span><br><span class="line">      start += <span class="number">1</span></span><br><span class="line"><span class="keyword">return</span> res</span><br></pre></td></tr></table></figure>
+
+<h4 id="Smallest-Subarray-with-a-given-sum-easy"><a href="#Smallest-Subarray-with-a-given-sum-easy" class="headerlink" title="Smallest Subarray with a given sum (easy)"></a>Smallest Subarray with a given sum (easy)</h4><p>Given an array of positive numbers and a positive number ‘S’, find the length of the smallest contiguous subarray whose sum is greater than or equal to ‘S’. Return 0, if no such subarray exists.</p>
+<h4 id="Longest-Substring-with-K-Distinct-Characters-medium"><a href="#Longest-Substring-with-K-Distinct-Characters-medium" class="headerlink" title="Longest Substring with K Distinct Characters (medium)"></a>Longest Substring with K Distinct Characters (medium)</h4><p>Given a string, find the length of the longest substring in it with no more than K distinct characters.</p>
+<h4 id="Fruits-into-Baskets-medium"><a href="#Fruits-into-Baskets-medium" class="headerlink" title="Fruits into Baskets (medium)"></a>Fruits into Baskets (medium)</h4><p>Given an array of characters where each character represents a fruit tree, you are given two baskets and your goal is to put maximum number of fruits in each basket. The only restriction is that each basket can have only one type of fruit.</p>
+<p>You can start with any tree, but once you have started you can’t skip a tree. You will pick one fruit from each tree until you cannot, i.e., you will stop when you have to pick from a third fruit type.</p>
+<p>Write a function to return the maximum number of fruits in both the baskets.</p>
+<h4 id="No-repeat-Substring-hard"><a href="#No-repeat-Substring-hard" class="headerlink" title="No-repeat Substring (hard)"></a>No-repeat Substring (hard)</h4><p>Given a string, find the length of the longest substring which has no repeating characters.</p>
+<h4 id="Longest-Substring-with-Same-Letters-after-Replacement-hard"><a href="#Longest-Substring-with-Same-Letters-after-Replacement-hard" class="headerlink" title="Longest Substring with Same Letters after Replacement (hard)"></a>Longest Substring with Same Letters after Replacement (hard)</h4><p>Given a string with lowercase letters only, if you are allowed to replace no more than ‘k’ letters with any letter, find the length of the longest substring having the same letters after replacement.</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/09/Aspect-Based-Sentiment-Analysis-Summary/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/09/Aspect-Based-Sentiment-Analysis-Summary/" class="post-title-link" itemprop="url">Aspect Based Sentiment Analysis - Summary</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-09 19:08:00" itemprop="dateCreated datePublished" datetime="2020-05-09T19:08:00-04:00">2020-05-09</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>0</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/09/Aspect-Based-Sentiment-Analysis-Frontend/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/09/Aspect-Based-Sentiment-Analysis-Frontend/" class="post-title-link" itemprop="url">Aspect Based Sentiment Analysis - Frontend</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-09 19:07:31" itemprop="dateCreated datePublished" datetime="2020-05-09T19:07:31-04:00">2020-05-09</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>0</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/09/Aspect-Based-Sentiment-Analysis-Backend/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/09/Aspect-Based-Sentiment-Analysis-Backend/" class="post-title-link" itemprop="url">Aspect Based Sentiment Analysis - Backend</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-09 19:07:18" itemprop="dateCreated datePublished" datetime="2020-05-09T19:07:18-04:00">2020-05-09</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>0</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/09/Aspect-Based-Sentiment-Analysis-Database/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/09/Aspect-Based-Sentiment-Analysis-Database/" class="post-title-link" itemprop="url">Aspect Based Sentiment Analysis - Database</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-09 19:07:08" itemprop="dateCreated datePublished" datetime="2020-05-09T19:07:08-04:00">2020-05-09</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>0</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/09/Aspect-Based-Sentiment-Analysis-Algorithm-2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/09/Aspect-Based-Sentiment-Analysis-Algorithm-2/" class="post-title-link" itemprop="url">Aspect Based Sentiment Analysis - Algorithm(2)</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-09 19:06:57" itemprop="dateCreated datePublished" datetime="2020-05-09T19:06:57-04:00">2020-05-09</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>0</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/09/Aspect-Based-Sentiment-Analysis-Algorithm-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/09/Aspect-Based-Sentiment-Analysis-Algorithm-1/" class="post-title-link" itemprop="url">Aspect Based Sentiment Analysis - Algorithm(1)</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-09 19:06:48" itemprop="dateCreated datePublished" datetime="2020-05-09T19:06:48-04:00">2020-05-09</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>0</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/09/Aspect-Based-Sentiment-Analysis-Data-Cleaning/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/09/Aspect-Based-Sentiment-Analysis-Data-Cleaning/" class="post-title-link" itemprop="url">Aspect Based Sentiment Analysis - Data Cleaning</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-09 19:06:23" itemprop="dateCreated datePublished" datetime="2020-05-09T19:06:23-04:00">2020-05-09</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>0</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>1 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/07/Aspect-Based-Sentiment-Analysis-Data-Crawler/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Yangtao "Max" Zhang">
+      <meta itemprop="description" content="MSI@Umich ECS@SJTU">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="M A X">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/07/Aspect-Based-Sentiment-Analysis-Data-Crawler/" class="post-title-link" itemprop="url">Aspect Based Sentiment Analysis - Data Crawler</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-05-07 23:23:43" itemprop="dateCreated datePublished" datetime="2020-05-07T23:23:43-04:00">2020-05-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-05-09 18:50:39" itemprop="dateModified" datetime="2020-05-09T18:50:39-04:00">2020-05-09</time>
+              </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>3.4k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>3 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>This project is sponsored by <strong>Dell</strong>, aimed to enrich <strong>Business Intelligence</strong> of Dell products</p>
+<h2 id="Data-Source"><a href="#Data-Source" class="headerlink" title="Data Source"></a>Data Source</h2><p>We used customers’ reviews about Dell products on <strong>Amazon</strong> as the raw data.</p>
+<img src="/2020/05/07/Aspect-Based-Sentiment-Analysis-Data-Crawler/1.png" class="" title="Review">
+<p>For a sample review above, we might care about those attributes:</p>
+<ul>
+<li>user name</li>
+<li>star numbers</li>
+<li>review date</li>
+<li>review title</li>
+<li>review content</li>
+</ul>
+<h2 id="Data-Crawler"><a href="#Data-Crawler" class="headerlink" title="Data Crawler"></a>Data Crawler</h2><p>Our <strong>Amazon-review-crawler</strong> is build on famous Python crawler library - <strong>scrapy</strong><br>We took following steps to develop our crawler</p>
+<h3 id="1-Start-Url"><a href="#1-Start-Url" class="headerlink" title="1. Start Url"></a>1. Start Url</h3><p>Intuitively, we want to get a list of Dell products as the start point of crawler</p>
+<img src="/2020/05/07/Aspect-Based-Sentiment-Analysis-Data-Crawler/2.png" class="" title="Start Url">
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, keyword=<span class="string">'dell'</span>, *args, **kwargs)</span>:</span></span><br><span class="line">    super(DellSpider, self).__init__(*args, **kwargs)</span><br><span class="line">    <span class="comment"># allow user to specify the keyword</span></span><br><span class="line">    self.start_urls = [</span><br><span class="line">        <span class="string">f'https://www.amazon.com/s?k=<span class="subst">&#123;keyword&#125;</span>&amp;i=electronics&amp;ref=nb_sb_noss'</span>]</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-Start-Page-Review-Url"><a href="#2-Start-Page-Review-Url" class="headerlink" title="2. Start Page - Review Url"></a>2. Start Page - Review Url</h3><p>For each product in the start url list, we want to get its corresponding review page, so we can further extract information.</p>
+<img src="/2020/05/07/Aspect-Based-Sentiment-Analysis-Data-Crawler/3.png" class="" title="Review Url">
+
+<p>Here <strong>data-asin</strong> is the unique id (uid) for the product. We need to extract uid and concatenate with <a href="http://www.amazon.com/product-reviews/" target="_blank" rel="noopener">www.amazon.com/product-reviews/</a> to get the review url</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># goods is a list of all the uid</span></span><br><span class="line">goods = response.xpath(<span class="string">"/html/body/div/div/div/div/div/span[4]/div/div/@data-asin"</span>).extract()</span><br><span class="line"><span class="keyword">for</span> good <span class="keyword">in</span> goods:</span><br><span class="line">    review_url = <span class="string">f"www.amazon.com/product-reviews/<span class="subst">&#123;good&#125;</span>"</span></span><br><span class="line">    <span class="comment"># make request to review_page</span></span><br><span class="line">    <span class="keyword">yield</span> Request(review_url, callback=self.parse)</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-Review-Page-Review-Detail"><a href="#3-Review-Page-Review-Detail" class="headerlink" title="3.Review Page - Review Detail"></a>3.Review Page - Review Detail</h3><p>Review page contains a list of review. For each of the review, we want to extract those key information by using <code>xpath</code> and <code>css selector</code>.</p>
+<img src="/2020/05/07/Aspect-Based-Sentiment-Analysis-Data-Crawler/4.png" class="" title="Review Detail">
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Collecting review list</span></span><br><span class="line">data = response.css(<span class="string">'#cm_cr-review_list'</span>)</span><br><span class="line"><span class="comment"># Collecting product name</span></span><br><span class="line">product = response.css(<span class="string">'.product-title'</span>)</span><br><span class="line"><span class="comment"># Collecting product star ratings</span></span><br><span class="line">star_rating = data.css(<span class="string">'.review-rating'</span>)</span><br><span class="line"><span class="comment"># Collecting product date ratings</span></span><br><span class="line">time = data.css(<span class="string">'.review-date'</span>)</span><br><span class="line"><span class="comment"># Collecting user review titles</span></span><br><span class="line">title = data.css(<span class="string">'.review-title'</span>)</span><br><span class="line"><span class="comment"># Collecting user reviews</span></span><br><span class="line">comments = data.css(<span class="string">'.review-text'</span>)</span><br><span class="line"><span class="comment"># Collectin user name</span></span><br><span class="line">name = data.css(<span class="string">'.a-profile-name'</span>)</span><br><span class="line"></span><br><span class="line">count = <span class="number">0</span></span><br><span class="line"><span class="comment"># Combining the results</span></span><br><span class="line"><span class="keyword">for</span> review <span class="keyword">in</span> star_rating:</span><br><span class="line">    <span class="keyword">yield</span>&#123;<span class="string">'time'</span>: <span class="string">''</span>.join(time[count].xpath(<span class="string">".//text()"</span>).extract()),</span><br><span class="line">            <span class="string">'stars'</span>: <span class="string">''</span>.join(review.xpath(<span class="string">'.//text()'</span>).extract()),</span><br><span class="line">            <span class="string">'name'</span>: <span class="string">''</span>.join(name[count].xpath(<span class="string">'.//text()'</span>).extract()),</span><br><span class="line">            <span class="string">'title'</span>: <span class="string">''</span>.join(title[count].xpath(<span class="string">'./span//text()'</span>).extract()).strip(),</span><br><span class="line">            <span class="string">'comment'</span>: <span class="string">''</span>.join(comments[count].xpath(<span class="string">"./span//text()"</span>).extract()),</span><br><span class="line">            <span class="string">'product'</span>: <span class="string">''</span>.join(product.xpath(<span class="string">"./h1/a//text()"</span>).extract()),</span><br><span class="line">            &#125;</span><br><span class="line">    count = count + <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<p>Further more, one product might have multiple pages of reviews, so we need to enable the crawler to turn review pages</p>
+<img src="/2020/05/07/Aspect-Based-Sentiment-Analysis-Data-Crawler/5.png" class="" title="Next Review Page">
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">next_page = response.xpath(<span class="string">"//li[@class='a-last']//a/@href"</span>).extract()</span><br><span class="line"><span class="keyword">for</span> next_link <span class="keyword">in</span> next_page:</span><br><span class="line">    <span class="keyword">yield</span> Request(<span class="string">"https://www.amazon.com"</span>+next_link, callback=self.parse)</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-Next-Start-Url"><a href="#4-Next-Start-Url" class="headerlink" title="4. Next Start Url"></a>4. Next Start Url</h3><p>So far, our crawler finishes fetching all the reviews of all the products on the start page. Amazon returns at most 400 pages of searching results.</p>
+<img src="/2020/05/07/Aspect-Based-Sentiment-Analysis-Data-Crawler/6.png" class="" title="Next Start Page">
+
+<p>so we need to enable the crawler to turn start pages as well</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">next_page = response.css(<span class="string">'.a-last a ::attr(href)'</span>).extract_first()</span><br><span class="line"><span class="keyword">if</span> next_page:</span><br><span class="line">    <span class="keyword">yield</span> Request(response.urljoin(next_page),callback=self.parse)</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-Tricks-for-Scrapy"><a href="#5-Tricks-for-Scrapy" class="headerlink" title="5. *Tricks for Scrapy"></a>5. *Tricks for Scrapy</h3><ol>
+<li>Follow robot.txt</li>
+<li>Set concurrent limits and delays</li>
+<li>Enable random user agent</li>
+<li>Enable cookie</li>
+<li>Enable http cache</li>
+</ol>
+<p><strong>1,2</strong> makes your crawler more polite to websites<br><strong>3,4</strong> makes your crawler more like real browser<br><strong>5</strong> makes your crawler more efficient</p>
+<p>Also, don’t worry if your crawler / IP address were blocked by Amazon. Just take a rest and wait several hours.</p>
+<h3 id="6-Summary"><a href="#6-Summary" class="headerlink" title="6. Summary"></a>6. Summary</h3><p>Our crawler follows {start_url -&gt; start_page (a list of products, for each product) -&gt; [review_url -&gt; review_page (a list of reviews, for each review) -&gt; extract information] -&gt; next review url} -&gt; next start url</p>
+<p>Our crawler is polite, efficient and hardworking with all those tricks configured.</p>
+<p>You can find the complete code <a href="https://github.com/MaxytZhang/Dell-Develop/tree/master/back-end/amazon_goods" target="_blank" rel="noopener">here</a></p>
 
       
     </div>
@@ -269,20 +1018,40 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">John Doe</p>
-  <div class="site-description" itemprop="description"></div>
+    <img class="site-author-image" itemprop="image" alt="Yangtao "Max" Zhang"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Yangtao "Max" Zhang</p>
+  <div class="site-description" itemprop="description">MSI@Umich ECS@SJTU</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">1</span>
+          <a href="/archives">
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://www.linkedin.com/in/yangtaozhang" title="LinkedIn → https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;yangtaozhang" rel="noopener" target="_blank"><i class="fab fa-linkedin fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/MaxytZhang" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;MaxytZhang" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.instagram.com/max_zyt" title="Instagram → https:&#x2F;&#x2F;www.instagram.com&#x2F;max_zyt" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:maxzhang@umich.edu" title="E-Mail → mailto:maxzhang@umich.edu" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+  </div>
 
 
 
@@ -309,9 +1078,19 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Yangtao "Max" Zhang</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="Symbols count total">6k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="Reading time total">5 mins.</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
   </div>
 
         
@@ -337,10 +1116,12 @@
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/muse.js"></script>
+<script src="/js/schemes/pisces.js"></script>
 
 
 <script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
 
 
 
@@ -357,6 +1138,26 @@
 
 
 
+<script>
+document.querySelectorAll('.pdfobject-container').forEach(element => {
+  let url = element.dataset.target;
+  let pdfOpenParams = {
+    navpanes : 0,
+    toolbar  : 0,
+    statusbar: 0,
+    pagemode : 'thumbs',
+    view     : 'FitH'
+  };
+  let pdfOpenFragment = '#' + Object.entries(pdfOpenParams).map(([key, value]) => `${key}=${encodeURIComponent(value)}`).join('&');
+  let fullURL = `/lib/pdf/web/viewer.html?file=${encodeURIComponent(url)}${pdfOpenFragment}`;
+
+  if (NexT.utils.supportsPDFs()) {
+    element.innerHTML = `<embed class="pdfobject" src="${url + pdfOpenFragment}" type="application/pdf" style="height: ${element.dataset.height};">`;
+  } else {
+    element.innerHTML = `<iframe src="${fullURL}" style="height: ${element.dataset.height};" frameborder="0"></iframe>`;
+  }
+});
+</script>
 
 
 
